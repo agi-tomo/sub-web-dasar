@@ -1,0 +1,168 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: "Arial";
+    box-sizing: border-box;
+}
+
+.jumbotron {
+    padding: 250px;
+    background-image: url("../img/wallpaper.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.h1-jumbotron {
+    font-family: "Century Gothic";
+}
+
+nav {
+    background-color: #000000;
+    padding: 5px;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    display: flex;
+    height: 7vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.a-navbar:hover {
+    font-weight: bold;
+}
+
+.a-navbar {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    font-family: "Fira Code";
+}
+
+header {
+    display: inline;
+}
+
+.content-container {
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.a-content {
+    background-color: bisque;
+    color: black;
+    text-decoration: none;
+    width: 720px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    flex-basis: 30%;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #232323;
+    text-align: center;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    margin-top: 20px;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.img-content {
+    width: 20vh;
+    height: 20vh;
+    border-radius: 50%;
+}
+
+main aside {
+    float: right;
+    width: 20%;
+    padding-left: 20px;
+}
+
+main #content {
+    float: left;
+    width: 75%;
+}
+
+aside .social-media {
+    margin-top: 10px;
+    padding: 4px;
+}
+
+.h1-card {
+    font-family: "Century Gothic";
+    font-size: 45px;
+}
+
+.p-card {
+    font-family: "Century Gothic";
+    font-size: 30px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    main #content,
+    main aside {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+.card-container {
+    padding-top: 20px;
+}
+
+#biodata,
+#name,
+#age {
+    font-family: "Arial";
+    font-size: 18px;
+    padding: 5px;
+}
